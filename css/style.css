@@ -328,6 +328,13 @@ legend {
   white-space: normal;
 }
 
+img {
+  width: 100%;
+  height: 780px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
