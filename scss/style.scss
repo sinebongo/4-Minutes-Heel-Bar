@@ -163,7 +163,7 @@ h6,
 
 
 @media (max-width: 768px) {
-    img {
+    .carousel-item>img {
         width: 200px;
         height: 265px;
         object-fit: fill;
