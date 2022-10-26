@@ -9156,7 +9156,7 @@ h6,
 @media (max-width: 768px) {
   img {
     width: 200px;
-    height: 500px;
+    height: 300px;
     -o-object-fit: fill;
        object-fit: fill;
   }
