@@ -9151,4 +9151,20 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 200px;
+    height: 300px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+}
+@media (min-width: 768px) {
+  img {
+    height: 750px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=style.css.map */

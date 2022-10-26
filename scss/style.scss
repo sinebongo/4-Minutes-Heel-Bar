@@ -1,20 +1,20 @@
 /******* Bootstrap Theming ********/
 
 //$primary: #194376;
- $primary:#b52828;
- $secondary: #f6403f;
+$primary:#b52828;
+$secondary: #f6403f;
 //$secondary: #46C6CE;
 $light: #F3F6FF;
 $dark: #1A1A1A;
 
-$theme-colors: (
-    "primary": $primary,
+$theme-colors: ("primary": $primary,
     "secondary": $secondary,
     "light": $light,
     "dark": $dark,
 );
 
-$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-sans-serif: 'Open Sans',
+sans-serif;
 
 $body-color: #757575;
 
@@ -159,4 +159,20 @@ h6,
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+
+@media (max-width: 768px) {
+    img {
+        width: 200px;
+        height: 300px;
+        object-fit: fill;
+    }
+}
+
+@media (min-width: 768px) {
+    img {
+        height: 750px;
+        object-fit: cover;
+    }
 }
